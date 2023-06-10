@@ -11,4 +11,7 @@
     <string name="ingredients">Ingredients:</string>
     <string name="no_search_results">No search results :(</string>
     <string name="similar_recipes">Similar recipes:</string>
+    <string name="random_recipes">Random Recipes</string>
+    <string name="search_recipes_top_header">Search Recipes</string>
+    <string name="favorite_recipes">Favorite Recipes</string>
 </resources>
