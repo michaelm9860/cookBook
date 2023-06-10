@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">cookBook</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cookbook">CookBook</string>
+    <string name="go_to_random_recipes">Go to random recipes</string>
+    <string name="go_to_favorite_recipes">Go to favorite recipes</string>
+    <string name="no_favorites_to_show">No favorites to show</string>
+    <string name="search">search</string>
+    <string name="search_recipes">Search recipes</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="no_search_results">No search results :(</string>
+    <string name="similar_recipes">Similar recipes:</string>
+</resources>
