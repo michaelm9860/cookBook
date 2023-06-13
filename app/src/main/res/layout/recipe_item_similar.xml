@@ -19,6 +19,7 @@
 
         <ImageView
             android:id="@+id/recipeSimilarImage"
+            android:contentDescription="@string/recipe_image"
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:adjustViewBounds="true"
@@ -27,9 +28,8 @@
 
     <TextView
         android:id="@+id/recipeSimilarName"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-
         android:elevation="2dp"
         android:gravity="center"
         android:layout_margin="16dp"
@@ -40,8 +40,10 @@
         android:textColor="@color/white"
         android:textSize="12sp"
         android:textStyle="bold"
-        app:flow_horizontalBias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Recipe name" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

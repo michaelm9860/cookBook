@@ -16,6 +16,8 @@
 
         <ImageButton
             android:id="@+id/btnBackFavorites"
+            android:contentDescription="@string/back_button"
+
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:scaleType="fitXY"

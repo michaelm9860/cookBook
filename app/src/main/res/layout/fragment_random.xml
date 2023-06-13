@@ -18,6 +18,7 @@
 
         <ImageButton
             android:id="@+id/btnBackRandom"
+            android:contentDescription="@string/back_button"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:scaleType="fitXY"
@@ -39,6 +40,7 @@
             android:textSize="24sp"
             />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recipesRv"

@@ -63,7 +63,7 @@ dependencies {
     // Gson
     implementation 'com.google.code.gson:gson:2.10.1'
 
-    // Room ?
+    // Room
 
     implementation("androidx.room:room-runtime:$room_version")
     implementation("androidx.room:room-ktx:$room_version")

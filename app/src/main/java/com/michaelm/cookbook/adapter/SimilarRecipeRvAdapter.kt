@@ -35,7 +35,7 @@ class SimilarRecipeRvAdapter(
             recipeRvAdapterInterface.onRecipeClick(recipe.id)
         }
 
-        holder.binding.recipeSimilarName.maxWidth = holder.binding.recipeSimilarImage.width
+      //  holder.binding.recipeSimilarName.maxWidth = holder.binding.recipeSimilarImage.width
 
         holder.binding.recipeSimilarName.text = recipe.title
 
